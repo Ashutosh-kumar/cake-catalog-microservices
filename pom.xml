@@ -89,6 +89,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>cake-catalog-springboot-service</finalName>
 	</build>
 
 </project>
