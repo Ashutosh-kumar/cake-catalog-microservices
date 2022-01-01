@@ -24,7 +24,7 @@ public class CakeCatalogRestApi {
 	@Autowired
     private CakeService cakeService;
 	
-@RequestMapping(value="/" ,produces = {"application/json" }  )
+@RequestMapping(value="/cakes" ,produces = {"application/json" }  )
 
 	List <CakeEntity> getCatalogItem(String userId){
 	
